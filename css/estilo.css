@@ -1,0 +1,55 @@
+:root{
+    --cor-branca: #fff;
+    --cor-azul: #1E90FF;
+    --cor-preta: #333;
+    --cor-grey: #BEBEBE;
+}
+
+
+body{
+    background-color: var(--cor-preta);
+    color: #333;
+    font-size: "Lucida Sans Unicode", "Lucida Sans", "Sans-Serif";
+}
+
+.input{
+    margin-top: 5px;
+}
+header{
+    position: relative;
+    
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+    padding: auto;
+}
+
+.login{
+
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 150px;
+    text-align: center;
+    background-color: var(--cor-grey);
+    background-position: right;
+}
+
+.botton-submit{
+    margin-top: 15px;
+    background-color: var(--cor-azul);
+}
+
+
+h1{
+    color: var(--cor-branca);
+    text-align: center;
+    font-style: cambria;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
