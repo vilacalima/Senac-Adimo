@@ -5,7 +5,7 @@
         -->
 <html>
     <head>
-        <title>Adimo</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/CssReset/reset.css">
         <link rel="stylesheet" href="css/login.css">
@@ -16,43 +16,39 @@
         <form class="card">
 
             <div class="card-header">
-
                 <h2>Login</h2>
-
             </div>
 
             <div class="card-content">
 
                 <div class="card-content-area">
-
-                    <label for="usuario">Usuário</label>
-
-                    <input type="text" id="usuario" autocomplete="off">
-
+                    <select>
+                        <label for="tipo">Quem é você ?</label>
+                        <option>Selecione</option>
+                        <option>Atendente</option>
+                        <option>Funcionario</option>
+                    </select>
                 </div>
 
                 <div class="card-content-area">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" autocomplete="off">
+                </div>
 
+                <div class="card-content-area">
                     <label for="password">Senha</label>
-
                     <input type="password" id="password" autocomplete="off">
-
                 </div>
 
             </div>
 
             <div class="card-footer">
-
                 <input type="submit" value="login" class="submit">
-
-                <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
-
+                <a href="#" class="recuperar-senha">Esqueceu a senha?</a>
                 <a href="#" class="Cadastro">Cadastre-se</a>
-
             </div>
 
         </form>
-
     </div>
 
     </body>

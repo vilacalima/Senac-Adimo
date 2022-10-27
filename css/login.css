@@ -12,6 +12,7 @@ body {
 }
 
 #login {
+    background-image: url(img/adimo.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,11 +79,11 @@ body {
 
     height: 40px;
 
-    background-color: cor(--cor-laranja);
+    background-color: var(--cor-laranja);
 
     border:none;
 
-    color: var(--cor-laranja);
+    color: var(--cor-branca);
 
     margin: 10px 0;
 
