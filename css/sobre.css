@@ -1,3 +1,44 @@
+header{
+    padding: 20px;
+}
+
+.imagemlogo{
+    float: left;
+}
+
+.caixa li{
+    display: inline-block;
+}
+
+.caixa{
+    width: 940px;
+
+    margin: 0 auto;
+}
+
+nav{
+    position:sticky ;
+    top:500px;
+    right: 10px;
+}
+
+nav li{
+    display: inline;
+    margin: 9px ;
+
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: orange;    
+}
+
 body {
     background-color: black;
     color: white;
@@ -5,39 +46,86 @@ body {
 }
 
 strong {
-    color: orange;
+    color: #ffbc40;
+}
+
+.historia{
+    float: right;
+}
+
+.localizacao{
+    position: ;
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    /* margin-top: auto; */
+   /* text-align: left; */
+    margin-right: 600px;
+ 
+
+}
+
+.time{
+    position: relative;
+    width: 40%;
+    height: 100px;
+    /* margin-top: auto; */
+    float: right;
+   /* display: inline-block; */
+    /* float: left;
+    text-align: center; */ 
+   /* margin-left: 300px; */
+   margin-right:100px ;
+   margin-top: -100px;
+   
+    
 }
 
 .imagemlocalizacao {
-    width: 800px;
+    width: 500px;
+    float: left;
+
+    
 }
 
-li {
+.imagemfuncionarios{
+    width: 500px;
+    float: right;
+    height: 230px;
+}
+
+.clientes{
+    margin: -200px;
+    position: absolute;
+    bottom: 0%;
+    display: inline-block ;
+    /* margin: 0; */
+    padding: 0; 
+    display: grid;
+    height: 100px;
+    
+    
+}
+
+.clientes li{
+    
     display: inline-block;
     text-align: center;
-    width: 25%;
+    width: 20%;
+    margin: 0%;
+    margin-right: 50px;
     vertical-align: top;
-    margin: 0 1.5%;
     box-sizing: border-box;
-    border-color: #000000;
+    border-color: #ffbc40;
     border-width: 2px;
     border-style: solid;
     border-radius: 20px;
-}
-
-
-relatos {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
     
 }
+
 
 q {
     font-size: large;
     font-style: italic;
 }
 
-.relatos h3{
-    color: orange;
-}
