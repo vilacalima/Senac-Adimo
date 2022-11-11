@@ -9,48 +9,45 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/CssReset/reset.css">
         <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
     </head>
-
-    <div id="login">
-
-        <form class="card">
-
-            <div class="card-header">
-                <h2>Login</h2>
-            </div>
-
-            <div class="card-content">
-
-                <div class="card-content-area">
-                    <select>
+    <body>
+        <div id="login">
+            <form class="card" action="">
+                <div class="card-header">
+                    <h2>Login</h2>
+                </div>
+                <div class="card-content">
+                    <div class="card-content-area">
                         <label for="tipo">Quem é você ?</label>
-                        <option>Selecione</option>
-                        <option>Atendente</option>
-                        <option>Funcionario</option>
-                    </select>
+                        <select name="tipo">
+                            <label for="tipo">Quem é você ?</label>
+                            <option disabled selected >Selecione</option>
+                            <option>Atendente</option>
+                            <option>Usuário</option>
+                        </select>
+                    </div>
+                    <div class="card-content-area">
+                        <label for="usuario">Usuário</label>
+                        <input type="text" name="usuario" id="usuario" autocomplete="off" required>
+                    </div>
+                    <div class="card-content-area">
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" autocomplete="off" required>
+                    </div>
                 </div>
-
-                <div class="card-content-area">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" autocomplete="off">
+                <div class="card-footer">
+                    <button type="submit" value="login" class="submit" id="entrar">
+                        Entrar
+                        <span class="oi-thump-up"></span>
+                    </button>
+                    <a href="#" class="recuperar-senha">Esqueceu a senha?</a>
+                    <a href="#" class="Cadastro">Cadastre-se</a>
+                    
                 </div>
-
-                <div class="card-content-area">
-                    <label for="password">Senha</label>
-                    <input type="password" id="password" autocomplete="off">
-                </div>
-
-            </div>
-
-            <div class="card-footer">
-                <input type="submit" value="login" class="submit">
-                <a href="#" class="recuperar-senha">Esqueceu a senha?</a>
-                <a href="#" class="Cadastro">Cadastre-se</a>
-            </div>
-
-        </form>
-    </div>
-
+            </form>
+            <a href="./login.html"></a>
+            <script src="./js/Login.js"></script>
+        </div>
     </body>
-
 </html>

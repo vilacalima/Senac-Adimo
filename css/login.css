@@ -27,6 +27,9 @@ body {
     width:280px;
 }
 
+.card-content{
+    padding-top: 10px;
+}
 .card-header {
     padding-bottom: 50px;
     color: var(--cor-branca);
