@@ -1,6 +1,10 @@
+
+
 header{
-    padding: 20px;
+    padding: 50px;
     text-align: center;
+    margin: auto;
+    margin-left: 10%;
 }
 
 .imagemlogo{
@@ -9,6 +13,7 @@ header{
 
 .caixa li{
     display: inline-block;
+    margin-left: 90%;
 }
 
 .caixa{
@@ -46,6 +51,7 @@ body {
     /* text-align: center; */
     width: 100%;
     height: 100%;
+    padding: 0%;
 }
 
 strong {
@@ -55,44 +61,48 @@ strong {
 .historia{
     float: right;
     text-align: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 
-.localizacao{
-    
-    width: 40%;
-    height: 100px;
+.caixa {
+    width: 100%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.caixa li{
     display: inline-block;
-    margin-right: 600px;
     text-align: center;
-    margin-left: 100px;
- 
-
-}
-
-.time{
     width: 40%;
-    position: relative; 
-    height: 100px;
-    float: right;
-   margin-right:100px ;
-   margin-top: -100px;
-   text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding-left: 10%;
+    box-sizing: border-box;
 }
 
-.imagemlocalizacao {
-    width: 500px;
-    float: left;
-    
+.texto1{
+    width: 55vh;
+}
 
-    
+.texto2{
+    width: 50vh;
+}
+
+.imagemlocalizacao{
+    width: 50vh;
+}
+
+.texto3{
+    width: 55vh;
+
 }
 
 .imagemfuncionarios{
-    width: 500px;
-    float: right;
-    height: 230px;
-    
+    width: 50vh;
 }
+
+
 
 .clientes{
     margin: -200px;
@@ -136,7 +146,7 @@ q {
 
 footer{
     text-align: center;
-    /* margin: 800px;
+    /* /* margin: 800px; */
     /* float: left; */
     margin-right: 0; 
     margin: 800px;
@@ -152,3 +162,81 @@ footer p{
     justify-content: space-between;
     float: both;
 }
+
+/* @media (min-width:600px){
+
+    .caixa li{
+        display: block;
+        text-align: center;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding-left: 10%;
+    }
+
+        
+        .texto1{
+            width: 20vh;
+        }
+        
+        .texto2{
+            width: 20vh;
+        }
+        
+        .imagemlocalizacao{
+            width: 20vh;
+        }
+        
+        .texto3{
+            width: 20vh;
+        
+        }
+        
+        .imagemfuncionarios{
+            width: 20vh;
+        }
+         header{
+            padding: 20px;
+            text-align: center;
+            margin: auto;
+            margin-left: 10%;
+        }
+        
+        .imagemlogo{
+            float: left;
+            margin-left: 5vh;
+            width: 20%;
+        }
+        
+        .caixa li{
+            
+            margin-left: 90%;
+        } */
+         */
+        /* .caixa{
+            width: 940px;
+        
+            margin: 0 auto;
+        }
+        
+        nav{
+            position:sticky ;
+            top:500px;
+            right: 10px;
+        }
+        
+        nav li{
+            display: inline;
+            margin: 9px ;
+        
+        }
+        nav a{
+            font-size: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+        }
+        
+        nav a:hover{
+            color: orange;    
+        }  */
