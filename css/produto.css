@@ -1,1 +1,47 @@
+header{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-left: 10%;
+}
 
+.imagemlogo{
+    float: left;
+}
+
+
+nav{
+    position:sticky ;
+    top:500px;
+    right: 10px;
+}
+
+nav li{
+    display: inline;
+    margin: 9px ;
+
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: orange;    
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+
+strong {
+    color: #ffbc40;
+}
