@@ -11,16 +11,6 @@ header{
     float: left;
 }
 
-.caixa li{
-    display: inline-block;
-    margin-left: 90%;
-}
-
-.caixa{
-    width: 940px;
-
-    margin: 0 auto;
-}
 
 nav{
     position:sticky ;
@@ -65,11 +55,11 @@ strong {
     margin-right: 10vh;
 }
 
-.caixa {
+/* .caixa {
     width: 100%;
     margin: 0 auto;
     padding: 50px 0;
-}
+} */
 
 .caixa li{
     display: inline-block;
@@ -163,80 +153,57 @@ footer p{
     float: both;
 }
 
-/* @media (min-width:600px){
 
+
+
+
+
+@media screen and (max-width:767px){
     .caixa li{
         display: block;
         text-align: center;
+        width: 40%;
         vertical-align: top;
         margin: 0 1.5%;
         padding-left: 10%;
+        box-sizing: border-box;
     }
 
+    .clientes{
         
-        .texto1{
-            width: 20vh;
-        }
+        text-align: center;
+        position: relative;
+        bottom: -40%;
+        display: grid;
+        height: 100px;
+        text-align: center;
         
-        .texto2{
-            width: 20vh;
-        }
+
         
-        .imagemlocalizacao{
-            width: 20vh;
-        }
+    }
+    .clientes li{
         
-        .texto3{
-            width: 20vh;
         
-        }
+        display: block;
+        text-align: center;
+        width: 40%;
+        vertical-align: top;
+        margin-left: 20%;
         
-        .imagemfuncionarios{
-            width: 20vh;
-        }
-         header{
-            padding: 20px;
-            text-align: center;
-            margin: auto;
-            margin-left: 10%;
-        }
+    
         
-        .imagemlogo{
-            float: left;
-            margin-left: 5vh;
-            width: 20%;
-        }
-        
-        .caixa li{
-            
-            margin-left: 90%;
-        } */
-         */
-        /* .caixa{
-            width: 940px;
-        
-            margin: 0 auto;
-        }
-        
-        nav{
-            position:sticky ;
-            top:500px;
-            right: 10px;
-        }
-        
-        nav li{
-            display: inline;
-            margin: 9px ;
-        
-        }
-        nav a{
-            font-size: 20px;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: white;
-            font-weight: bold;
-        }
-        
-        nav a:hover{
-            color: orange;    
-        }  */
+    }
+
+    .align1{
+        float: right;
+    }
+
+    footer p{
+        text-align: justify;
+        color: #ffbc40;
+        justify-content: space-between;
+        float: both;
+    }
+}
+
+    
