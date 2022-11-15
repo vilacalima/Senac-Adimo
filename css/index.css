@@ -1,0 +1,154 @@
+
+header{
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-left: 10%;
+}
+
+.imagemlogo{
+    float: left;
+}
+
+
+nav{
+    position:sticky ;
+    top:500px;
+    right: 10px;
+}
+
+nav li{
+    display: inline;
+    margin: 9px ;
+
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: orange;    
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+
+li{
+
+list-style-type: none;
+}
+
+figcaption{
+    font-style: bold;
+    color: white;
+}
+
+.container{
+    display: inline-block;
+    margin-top: 10%;
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+.container h2{
+    margin-left: auto;
+}
+
+
+.painel-mais-procurados{
+    margin-top: -450px;
+    float:right;  
+    background-color: black;
+    background: linear-gradient(black, grey);
+}
+
+
+.painel-mais-procurados img{
+    width: 90%;
+    margin-right: 10%;
+}
+
+
+.mapa p{
+    font-style: bold;
+    font-weight: bold;
+    margin-top: 5%;
+    padding: auto;
+    margin-left: 18%;
+   
+}
+
+.mapaconteudo{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.noticias{
+    margin-top: -70px;
+    font-weight: bold;
+    margin-left: -550px;
+    width: 300px;
+}
+
+
+.noticias img{
+    width: 600PX;
+    margin-left: -250px;
+}
+
+footer{
+
+    text-align: center;
+    margin: 200%;
+    margin-left: -50vh;
+} 
+
+footer p{
+    text-align: justify;
+    color: #ffbc40;
+    margin-left: 50%;
+    float: both;
+}
+
+
+@media screen and (max-width:767px){
+    .caixa li{
+        display: block;
+        text-align: center;
+        width: 40%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding-left: 10%;
+        box-sizing: border-box;
+    }
+
+   
+    .mapa p{
+        font-style: bold;
+        font-weight: bold;
+        margin-top: 10%;
+        margin-left: auto;
+       
+    }
+    
+        
+    }
+
+
+    footer p{
+        text-align: justify;
+        color: #ffbc40;
+        justify-content: space-between;
+        float: both;
+    }
