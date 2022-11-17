@@ -56,6 +56,7 @@ figcaption{
 .container{
     display: inline-block;
     margin-top: 10%;
+    margin-right: 5%;
     float: right;
     width: 40%;
     text-align: center;
@@ -97,7 +98,7 @@ figcaption{
 .noticias{
     margin-top: -70px;
     font-weight: bold;
-    margin-left: -550px;
+    margin-left: -500px;
     width: 300px;
 }
 
@@ -107,19 +108,22 @@ figcaption{
     margin-left: -250px;
 }
 
-footer{
-
-    text-align: center;
-    margin: 200%;
-    margin-left: -50vh;
-} 
-
-footer p{
-    text-align: justify;
-    color: #ffbc40;
-    margin-left: 50%;
-    float: both;
+footer .rodape{
+    display: relative;
+    margin-top: 10%;
+    float: left;
 }
+
+footer{
+    /* display: none;
+    bottom: 0px;
+    font: optional;
+    text-align: center;
+    margin: 200%; */
+    margin-left: -40%;
+    /* background-image: url(../css/img/adimo-imgpequena.png); */
+}  
+
 
 
 @media screen and (max-width:767px){
@@ -143,6 +147,17 @@ footer p{
     }
     
         
+    .noticias{
+        margin-top: -10px;
+        font-weight: bold;
+        margin-left: -200px;
+        width: 300px;
+    }
+    
+    
+    .noticias img{
+        width: 450PX;
+        margin-left: -150px;
     }
 
 
@@ -152,3 +167,5 @@ footer p{
         justify-content: space-between;
         float: both;
     }
+
+}
