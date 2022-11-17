@@ -23,13 +23,13 @@
                         <select name="tipo">
                             <label for="tipo">Quem é você ?</label>
                             <option disabled selected >Selecione</option>
-                            <option>Atendente</option>
-                            <option>Usuário</option>
+                            <option name="atendente">Atendente</option>
+                            <option name="usuario">Usuário</option>
                         </select>
                     </div>
                     <div class="card-content-area">
                         <label for="usuario">Usuário</label>
-                        <input type="text" name="usuario" id="usuario" autocomplete="off" required>
+                        <input type="text" name="user" id="usuario" autocomplete="off" required>
                     </div>
                     <div class="card-content-area">
                         <label for="password">Senha</label>
@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    <button type="submit" value="login" class="submit" id="entrar">
+                    <button type="submit" value="login" onclick="Login()" class="submit" id="entrar">
                         Entrar
                         <span class="oi-thump-up"></span>
                     </button>
