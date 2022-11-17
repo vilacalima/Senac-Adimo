@@ -6,3 +6,90 @@ uma ficha cadastral.
 <!-- A ficha cadastral do cliente é preenchida no sistema e analisada por um analista de crédito
 da empresa que, consultando a Serasa, faz um levantamento da situação do cliente na
 praça e elabora um parecer.  -->
+
+<html>
+    <head>
+        <title>Adimo</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="stylesheet" href="css/atendente.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <h1> <img src="css/img/adimo-imgpequena.png" alt="Logo da empresa Adimo" class="imagemlogo"> </h1>
+            </div>
+            <button onclick="abrirMenu()">&#9776;</button>
+            <ul id="botoesMenu">
+                <a href="#perfil">
+                    <li>
+                        <p>Perfil</p>
+                    </li>
+                </a>
+                <a href="#cadastro">
+                    <li>
+                        <p>Cadastro</p>
+                    </li>
+                </a>
+                <a href="#mensagens">
+                    <li>
+                        <p>Mensagens</p>
+                    </li>
+                </a>
+                <a href="#configurações">
+                    <li>
+                        <p>Configurações</p>
+                    </li>
+                </a>
+                <a href="#sair">
+                    <li>
+                        <p>Sair</p>
+                    </li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="content" id="perfil" style="background-color: black"> 
+            <div class="height-nav"></div>
+            Perfil 
+        </div>
+        <div class="content" id="carrinho" style="background-color: black"> 
+            <div class="height-nav"></div>
+            Mensagens
+        </div>
+        <div class="content" id="favoritos" style="background-color: black"> 
+            <div class="height-nav"></div>
+             
+        </div>
+        <div class="content" id="comprados" style="background-color: black"> 
+            <div class="height-nav"></div>
+            Cadastro 
+        </div>
+        <div class="content" id="sair" style="background-color: black"> 
+            <div class="height-nav"></div>
+            Sair 
+        </div>
+
+        <script>
+            const arrayHeight = document.getElementsByClassName('height-nav');
+            const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+
+            for (let navHeightObj of arrayHeight)
+                navHeightObj.style.height = navHeight + 'px';
+
+            function abrirMenu() {
+                const botoesMenu = document.getElementById('botoesMenu');
+
+                botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+            }
+        </script>
+    </body>
+
+    <footer>
+    <img src="css/img/adimo-imgpequena.png">
+    <p class="copy">&copy; Adimo 2022.</p>
+
+
+
+
+</footer>
+</html>
