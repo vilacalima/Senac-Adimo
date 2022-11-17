@@ -9,7 +9,6 @@ header{
     float: left;
 }
 
-
 nav{
     position:sticky ;
     top:500px;
@@ -44,4 +43,8 @@ body {
 
 strong {
     color: #ffbc40;
+}
+
+casas {
+    
 }
