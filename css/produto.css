@@ -45,6 +45,40 @@ strong {
     color: #ffbc40;
 }
 
-casas {
+.CasaPanamby{
+    margin: -200px;
+    position: absolute;
+    bottom: 0%;
+    display: inline-block ;
+    /* margin: 0; */
+    padding: 0; 
+    display: grid;
+    height: 100px;
+    text-align: center;
+    
+}
+    .CasaMorumbi{
+        margin: -200px;
+        position: absolute;
+        bottom: 0%;
+        display: inline-block ;
+        /* margin: 0; */
+        padding: 0; 
+        display: grid;
+        height: 100px;
+        text-align: center;
+        
+    }
+
+.CasaBarueri{
+    margin: -200px;
+    position: absolute;
+    bottom: 0%;
+    display: inline-block ;
+    /* margin: 0; */
+    padding: 0; 
+    display: grid;
+    height: 100px;
+    text-align: center;
     
 }
