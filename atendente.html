@@ -7,89 +7,62 @@ uma ficha cadastral.
 da empresa que, consultando a Serasa, faz um levantamento da situação do cliente na
 praça e elabora um parecer.  -->
 
-<html>
-    <head>
-        <title>Adimo</title>
-        <link rel="stylesheet" href="css/estilo.css">
-        <link rel="stylesheet" href="css/atendente.css">
-    </head>
-    <body>
-        <nav>
-            <div class="logo">
-                <h1> <img src="css/img/adimo-imgpequena.png" alt="Logo da empresa Adimo" class="imagemlogo"> </h1>
-            </div>
-            <button onclick="abrirMenu()">&#9776;</button>
-            <ul id="botoesMenu">
-                <a href="#perfil">
-                    <li>
-                        <p>Perfil</p>
-                    </li>
-                </a>
-                <a href="#cadastro">
-                    <li>
-                        <p>Cadastro</p>
-                    </li>
-                </a>
-                <a href="#mensagens">
-                    <li>
-                        <p>Mensagens</p>
-                    </li>
-                </a>
-                <a href="#configurações">
-                    <li>
-                        <p>Configurações</p>
-                    </li>
-                </a>
-                <a href="#sair">
-                    <li>
-                        <p>Sair</p>
-                    </li>
-                </a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Tela Atendente</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+
+    <!-- Example Code -->
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <h1> <img src="css/img/adimo-imgpequena.png" alt="Logo da empresa Adimo" class="imagemlogo"> </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atendimento</font></font></h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Perto"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mensagens</font></font></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cadastro</font></font></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                  Mais 
+                </font></font></a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Reservar</font></font></a></li>
+                  <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Configurações</font></font></a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sair</font></font></a></li>
+                </ul>
+              </li>
             </ul>
-        </nav>
-
-        <div class="content" id="perfil" style="background-color: black"> 
-            <div class="height-nav"></div>
-            Perfil 
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Procurar">
+              <button class="btn btn-success" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Procurar</font></font></button>
+            </form>
+          </div>
         </div>
-        <div class="content" id="carrinho" style="background-color: black"> 
-            <div class="height-nav"></div>
-            Mensagens
-        </div>
-        <div class="content" id="favoritos" style="background-color: black"> 
-            <div class="height-nav"></div>
-             
-        </div>
-        <div class="content" id="comprados" style="background-color: black"> 
-            <div class="height-nav"></div>
-            Cadastro 
-        </div>
-        <div class="content" id="sair" style="background-color: black"> 
-            <div class="height-nav"></div>
-            Sair 
-        </div>
+      </div>
+    </nav>
 
-        <script>
-            const arrayHeight = document.getElementsByClassName('height-nav');
-            const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
-
-            for (let navHeightObj of arrayHeight)
-                navHeightObj.style.height = navHeight + 'px';
-
-            function abrirMenu() {
-                const botoesMenu = document.getElementById('botoesMenu');
-
-                botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
-            }
-        </script>
-    </body>
-
-    <footer>
-    <img src="css/img/adimo-imgpequena.png">
-    <p class="copy">&copy; Adimo 2022.</p>
-
-
-
-
-</footer>
+  </body>
 </html>
