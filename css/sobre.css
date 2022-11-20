@@ -1,6 +1,6 @@
 body{
 
-    background-color: black;
+    background-color:#343a40;
     color: white;
 }
 
@@ -81,7 +81,7 @@ footer{
     margin: 40 60 40 50;
     vertical-align: top;
     box-sizing: border-box; 
-    text-align: center; */
+    text-align: center; 
 }
 
 .imagemfuncionarios{
