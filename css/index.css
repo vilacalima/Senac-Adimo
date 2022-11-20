@@ -1,28 +1,34 @@
+body {
 
-header{
+    background-color: #343a40;
+    color: white;
+}
+
+header {
     padding: 50px;
     text-align: center;
     margin: auto;
     margin-left: 10%;
 }
 
-.imagemlogo{
+.imagemlogo {
     float: left;
 }
 
 
-nav{
-    position:sticky ;
-    top:500px;
+nav {
+    position: sticky;
+    top: 500px;
     right: 10px;
 }
 
-nav li{
+nav li {
     display: inline;
-    margin: 9px ;
+    margin: 9px;
 
 }
-nav a{
+
+nav a {
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -30,28 +36,26 @@ nav a{
     font-weight: bold;
 }
 
-nav a:hover{
-    color: orange;    
+nav a:hover {
+    color: orange;
 }
 
-body {
-    display: absolute;
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 100%;
-    padding: 0%;
-} 
 
- li{
 
-list-style-type: none;
-}
-
-figcaption{
+.mapa p{
     font-style: bold;
-    color: white;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 20%;
+   
 }
+
+.mapaconteudo{
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+
 
 .container{
     display: inline-block;
@@ -81,32 +85,29 @@ figcaption{
 }
 
 
-.mapa p{
-    font-style: bold;
-    font-weight: bold;
-    margin-top: 5%;
-    padding: auto;
-    margin-left: 18%;
-   
+.noticias p{
+    text-align: center;
+    color: aqua;
 }
 
-.mapaconteudo{
-    margin-left: 10%;
-    margin-top: 30px;
-}
-
-.noticias{
-    margin-top: -70px;
+.noticias li{
+    list-style-type:none;
+    padding: 30px;
+    margin-top: -300px;
     font-weight: bold;
-    margin-left: -500px;
+    margin-left: -700px;
     width: 300px;
+    list-style: none;
 }
 
 
 .noticias img{
-    width: 600PX;
-    margin-left: -250px;
+    width: 400PX;
+    margin-left: 10%;
+    margin-top: 5px;
+
 }
+
 
 .texto-rodape{
     margin-left: 2%;
@@ -120,72 +121,8 @@ footer .rodape{
 
 footer{
 
+    padding: 60px;
+
     margin-left: -40%;
 
 }  
-
-
-@media screen and(max-width:414px){
-    .noticias{
-        margin-top: -10px;
-        font-weight: bold;
-        margin-left: -200px;
-        width: 200px;
-    }
-    
-    
-    .noticias img{
-        width: 250PX;
-        margin-left: -150px;
-    }
-
-}
-
- @media screen and (max-width:1200px){
-    .caixa li{
-        display: block;
-        text-align: center;
-        width: 40%;
-        vertical-align: top;
-        margin: 0 1.5%;
-        padding-left: 10%;
-        box-sizing: border-box;
-    }
-
-   
-    .mapa p{
-        font-style: bold;
-        font-weight: bold;
-        margin-top: 10%;
-        margin-left: auto;
-       
-    }
-    
-        
-    .noticias{
-        margin-top: -10px;
-        font-weight: bold;
-        margin-left: -200px;
-        width: 300px;
-    }
-    
-    
-    .noticias img{
-        width: 450PX;
-        margin-left: -150px;
-    }
-
-
-    footer p{
-        text-align: justify;
-        color: #ffbc40;
-        float: both;
-    }
-
-} 
-
-
-
-
-
-
