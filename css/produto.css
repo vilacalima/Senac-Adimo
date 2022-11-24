@@ -1,50 +1,165 @@
-header{
-    padding: 50px;
-    text-align: center;
-    margin: auto;
-    margin-left: 10%;
-}
 
-.imagemlogo{
-    float: left;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;0,900;1,400;1,800&display=swap");
 
-nav{
-    position:sticky ;
-    top:500px;
-    right: 10px;
-}
 
-nav li{
-    display: inline;
-    margin: 9px ;
-
-}
-nav a{
-    font-size: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-weight: bold;
-}
-
-nav a:hover{
-    color: orange;    
-}
-
-body {
-    background-color: black;
-    color: white;
-    /* text-align: center; */
+.container-cards {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    padding: 0 50px;
+    gap: 20px;
+  }
+  
+  .cards {
+    font-weight: 500;
+  }
+  
+  .card-image {
     width: 100%;
-    height: 100%;
-    padding: 0%;
-}
-
-strong {
-    color: #ffbc40;
-}
-
-casas {
-    
-}
+  
+    height: 200px;
+  
+    object-fit: cover;
+  }
+  
+  .cards {
+    width: 100%;
+    position: relative;
+    border: 1px solid var(--primary-color-light);
+  }
+  .card-price span {
+    color: #BB460E;
+    font-weight: 600;
+  }
+  
+  .card-price {
+    margin-bottom: 30px;
+  }
+  
+  .card-button {
+    cursor: pointer;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+  }
+  
+  .card-information {
+    padding: 16px;
+  }
+  
+  .card-type {
+    padding: 5px 10px;
+    color: #fff;
+    position: absolute;
+    background-color: var(--primary-color);
+  
+    transform: rotate(-90deg);
+  }
+  
+  .casa {
+    top: 14px;
+    left: -15px;
+  }
+  
+  .apto {
+    top: 42px;
+    left: -42.7px;
+  }
+  
+  .card-details {
+    color: rgba(0, 0, 0, 0.4);
+  
+    margin: 15px 0;
+  }
+  .container-cards-title h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+  
+  /* Swipper com clientes*/
+  
+  .base-swiper {
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+    padding: 0 40px;
+    margin-bottom: 150px;
+  }
+  
+  .quotes-image {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .swiper {
+    height: 350px;
+    width: 100%;
+  }
+  
+  .swiper-slide {
+    cursor: grab;
+    display: flex;
+    gap: 30px;
+  }
+  
+  
+  .swiper h2 {
+    font-size: 20px;
+  }
+  
+  .swiper-slide div {
+    margin: 0 auto;
+  }
+  
+  .swiper p {
+    font-size: 17px;
+  }
+  
+  /* Fim da Main*/
+  
+  /* Responsividade */
+  @media only screen and (max-width: 844px) {
+    .search-form form {
+      width: 90vw;
+      padding: 15px 2vw;
+    }
+    .container-cards {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+    }
+  }
+  
+  @media only screen and (max-width: 679px) {
+    .button-search {
+      margin-top: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .search-form form {
+      flex-direction: column;
+      width: fit-content;
+      gap: 20px;
+    }
+  
+    .container-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .container-vantagens {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .type-search {
+      width: 300px;
+    }
+  
+    .input-icon {
+      width: 100%;
+    }
+  }
+  
