@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg3973" viewBox="0 0 399.72 83.753" version="1.0">
+  <g id="layer1" transform="translate(-330.87 -462.97)">
+    <g id="g3953" stroke="#afafaf" transform="matrix(4.4799 0 0 2.9866 -22.373 -404.56)">
+      <rect id="rect2953" height="26.206" width="88.002" y="291.39" x="79.463" stroke-width="1.5" fill="#fff" />
+      <g id="g3915" transform="matrix(1 0 0 .76435 .78697 68.514)">
+        <rect id="rect3725" height="19.539" width="1.8689" y="291.14" x="81.923" stroke-width=".26172" />
+        <rect id="rect3727" height="9.7123" width="1.9425" y="291.1" x="92.505" stroke-width=".18812" />
+        <rect id="rect3729" height="9.7123" width="1.9425" y="291.1" x="87.196" stroke-width=".18812" />
+        <rect id="rect3731" height="9.7123" width="1.9425" y="291.1" x="97.814" stroke-width=".18812" />
+        <rect id="rect3733" height="9.7123" width="1.9425" y="291.1" x="103.12" stroke-width=".18812" />
+        <rect id="rect3765" height="19.539" width="1.8689" y="291.14" x="108.47" stroke-width=".26172" />
+        <rect id="rect3767" height="9.7123" width="1.9425" y="291.1" x="119.05" stroke-width=".18812" />
+        <rect id="rect3769" height="9.7123" width="1.9425" y="291.1" x="113.74" stroke-width=".18812" />
+        <rect id="rect3771" height="9.7123" width="1.9425" y="291.1" x="124.36" stroke-width=".18812" />
+        <rect id="rect3773" height="9.7123" width="1.9425" y="291.1" x="129.67" stroke-width=".18812" />
+        <rect id="rect3779" height="19.539" width="1.8689" y="291.14" x="135.01" stroke-width=".26172" />
+        <rect id="rect3781" height="9.7123" width="1.9425" y="291.1" x="145.6" stroke-width=".18812" />
+        <rect id="rect3783" height="9.7123" width="1.9425" y="291.1" x="140.29" stroke-width=".18812" />
+        <rect id="rect3785" height="9.7123" width="1.9425" y="291.1" x="150.91" stroke-width=".18812" />
+        <rect id="rect3787" height="9.7123" width="1.9425" y="291.1" x="156.21" stroke-width=".18812" />
+        <rect id="rect3907" height="19.539" width="1.8689" y="291.14" x="161.56" stroke-width=".26172" />
+      </g>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>ruler (simple, without figures)</dc:title>
+        <dc:date>2009-09-28T09:56:08</dc:date>
+        <dc:description>cartoon, cartoon, clip art, clipart, image, inkscape, inkscape, instrument, instrument, line art, line art, measure, measure, measurement, measurement, media, office, office, png, public domain, ruler, ruler, school, school, svg, </dc:description>
+        <dc:source>http://openclipart.org/detail/27612/ruler-(simple-without-figures)-by-jetxee-27612</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>jetxee</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>cartoon</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>inkscape</rdf:li>
+            <rdf:li>instrument</rdf:li>
+            <rdf:li>line art</rdf:li>
+            <rdf:li>measure</rdf:li>
+            <rdf:li>measurement</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>office</rdf:li>
+            <rdf:li>png</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>ruler</rdf:li>
+            <rdf:li>school</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
