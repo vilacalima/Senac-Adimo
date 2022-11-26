@@ -344,6 +344,50 @@ nav menu{
   
     .input-icon {
       width: 100%;
+      position: inherit;
     }
   }
-  
+
+.formulario{
+
+  width: 50%;
+  height:70px;
+  object-fit:fill;
+  font:bold;
+  position: inherit;
+  margin: 0 auto;
+
+}
+
+.formulario2{  
+  width: 50%;
+  height:70px;
+  object-fit:fill;
+  font-weight:bold;
+  position: inherit;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
+
+ .btn-primary{
+
+  cursor: pointer;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: var(--primary-color);
+  border-radius: 2px;
+  font: bold;
+  margin: 0;
+
+ 
+}
+.espaçoum{
+  margin: 80px 0;
+  position: center;
+}
+
+.espaçodois{
+  margin: 0;
+  position:static;
+}
