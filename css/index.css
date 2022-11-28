@@ -1,3 +1,4 @@
+
 body {
 
     background-color: #343a40;
@@ -41,57 +42,6 @@ nav a:hover {
 }
 
 
-
-.mapa h2{
-    font-style: bold;
-    font-weight: bold;
-    margin-top: 5%;
-    margin-left: 43%; 
-}
-
-.mapaconteudo{
-    text-align: center;
-}
-
-.painel-mais-procurados h2{
-    margin-top: 40;
-}
-
-.painel-mais-procurados{
-    display: inline-block;
-    text-align: center;
-    margin-top: 10px;
-
-}
-
-.painel-mais-procurados img{
-    max-width: 100%;
-}
-
-.painel-mais-procurados li{
-    display: inline-block;
-    text-align: center;
-    width: 20%;
-    padding: 10;
-    margin-top: 70;
-    margin-left: 20;
-    margin-right: 20;
-
-    vertical-align: top;
-    box-sizing: border-box;
-    border-color: #ffbc40;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 20px;
-    text-align: center;
-} 
-
-.painel-mais-procurados img{
-    width: 300%;
-    height: 30%;
-}
-
-
 .simulador{
     box-sizing: border-box;
     text-align: center;
@@ -99,7 +49,6 @@ nav a:hover {
 
 .simulador a{
     text-decoration: none;
-    /* background-color: white; */
     color: white;
 
 }
