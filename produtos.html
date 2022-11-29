@@ -19,7 +19,6 @@ cadastrada pelo atendente da empresa e efetua a locação.  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/produto.css" />
-
 </head>
 
 <body>
@@ -37,6 +36,8 @@ cadastrada pelo atendente da empresa e efetua a locação.  -->
 
                 </ul>
             </nav>
+          </header>
+
             <main>
               <div class="main-container">
                 <div class="sub-main-container">
@@ -138,30 +139,62 @@ cadastrada pelo atendente da empresa e efetua a locação.  -->
                       <p class="card-region">Jardim Elise, São Pualo</p>
                       <p class="card-details">130m² | 4 dorms.</p>
                       <p class="card-price">Valor <span>R$ 222.109,00</span></p>
-                      <a class="card-button" href="imovel.html"> Ver mais</a>
+                      <a class="card-button" href="imovel.html"> Ver mais </a>
                     </div>
                   </div>
                 </div>
               </div>
 
- 
+</div>
 
-</div>
+<form>
+  <legend> Entre em contato conosco! </legend><br>
 <div class="formulario">
-  <label for="exampleFormControlInput1" class="form-label">REGISTRE SEU INTERESSE</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="digite seu e-mail">
+  <label for="Nome">Nome Completo</label>
+  <input type="text" class="form-control" id="nome" placeholder="Fulano de tal" name="nome" autofocus required>
 </div>
+
+
+
 <div class="formulario2">
-  <label for="exampleFormControlTextarea1" class="form-label"> </label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  <div class="botao">
-    <br>
-  <button type="submit" class="btn btn-primary mb-3"> Enviar </button>
-  </br>
-  </div>
+  <label for="email">Email</label>
+  <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com" required>
+</div>
+
+
+<div class="formulario3">
+  <label for="msg">Mensagem</label>
+  <textarea name="msg" class="form-control" id="msg" placeholder="Digite sua Mensagem" required></textarea>
+</div>   
+
+<div class="form-group">
+<label for="assunto">Assunto</label>
+<select class="custom-select" id="assunto">
+  <option disabled selected>Sugestões / Reclamações</option>
+    <option value="alugar">Quero alugar</option>
+    <option value="comprar">Quero Comprar</option>
+    <option value="condominio">Adimo Condominio</option>
+    <option value="locacao">Adiministração de locação</option>
+    <option value="atendimento">Atendimento ruim</option>
+    <option value="negocio">Negócio mal feito</option>
+</select>
+</div>
+
+<div class="form-group custom-control custom-checkbox">
+<input type="checkbox" class="custom-control-input" id="mensagens" value="sim" checked>
+<label class="custom-control-label" for="mensagens">
+  Quero receber Noticías sobre a Adimo Imóveis
+</label>
+</div>
+<button type="submit" class="btn btn-primary">
+<span class="oi-thumb-up"></span>
+Confirmar dados   
+</button>
+</fieldset>   
 </div>
 </div>
-</div>
+
+</form>
 
 
 <footer>
@@ -174,8 +207,8 @@ cadastrada pelo atendente da empresa e efetua a locação.  -->
 
 </footer>
 </body>
-        
-    </header>
+<script src="Js/form.js"></script>
+    </html>
 
     
           

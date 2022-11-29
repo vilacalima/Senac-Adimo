@@ -353,9 +353,11 @@ nav menu{
   width: 50%;
   height:70px;
   object-fit:fill;
+  font-weight:bold;
   font:bold;
   position: inherit;
   margin: 0 auto;
+  cursor: pointer;
 
 }
 
@@ -370,6 +372,16 @@ nav menu{
 
 }
 
+.formulario3{  
+  width: 50%;
+  height:70px;
+  object-fit:fill;
+  font-weight:bold;
+  position: inherit;
+  margin: 0 auto;
+  cursor: pointer;
+
+}
  .btn-primary{
 
   cursor: pointer;
@@ -378,12 +390,24 @@ nav menu{
   background-color: var(--primary-color);
   border-radius: 2px;
   font: bold;
-  margin: 0;
+  margin: -20px 330px;
 
  
 }
+
+.form-group{  
+  width: 50%;
+  height:70px;
+  object-fit:fill;
+  font-weight:bold;
+  position: inherit;
+  margin: 30 auto;
+  cursor: pointer;
+
+}
+
 .espaçoum{
-  margin: 80px 0;
+  margin: 50px 0;
   position: center;
 }
 

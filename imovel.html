@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="css/imovel.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Imovel</title>
+  </head>
+  <body>
+    
+<main>
+  
+  <div class="card-wrapper">
+    <div class="card">
+      <!-- Card esquerdo -->
+      <div class="product-imgs">
+        <div class="img-display">
+          <div class="img-showcase">
+            <img src="css/img/casa-sem-preocupacao-imagem-01.png" alt="Casa">
+            <img src="css/img/d-body.jpg" alt="sala">
+            <img src="css/img/09.Casa_Interior_-_Ph.Federico_Cairoli_(low).jpg" alt="interior">
+          </div>
+        </div>
+        <div class="img-select">
+          <div class="img-item">
+            <a href="#" data-id="1">
+              <img src="css/img/casa-sem-preocupacao-imagem-01.png" alt="Casa">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id="2">
+              <img src="css/img/d-body.jpg" alt="sala">
+            </a>
+          </div>
+          <div class="img-item">
+            <a href="#" data-id="3">
+              <img src="css/img/09.Casa_Interior_-_Ph.Federico_Cairoli_(low).jpg" alt="interior">
+            </a>
+          </div>
+        </div>
+      </div>
+    <!-- card direito-->
+      <div class="product-content">
+        <h2 class="product-title">Casa no Morumbi</h2>
+        <div class="product-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>4.7(21)</span>
+        </div>
+        <div class="product-price">
+          <p class="new-price">Preço: <span>R$ 1.000.000</span></p>
+        </div>
+
+        <div class="product-detail">
+          <h2>Sobre a residencia: </h2>
+          <p>Residencia em condominio fechado, localizado em um ótimo bairro, é seguro, tem escolas perto, e comercios.</p>
+          <p>A residencia tem 7 comodos, com três quartos, o quarto master tem closet e suíte</p>
+          <ul>
+            <li>110 m²<span>R$ 13.640/m²</span></li>
+            <li>3 quartos<span>(1 suíte)</span></li>
+            <li>2 Vagas cobertas<span> 2 vagas sem cobertura</span></li>
+          </ul>
+        </div>
+        <div class="purchase-info">
+          <button type="button" class="btn">
+            Agendar Visita 
+          </button>
+          <div class="purchase-info2">
+            <button type="button" onclick="history.back()" class="btn">
+              Voltar
+            </button>
+        </div>
+        <div class="social-links">
+          <p>Compartilhe: </p>
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <form>
+    <legend> AGENDE SUA VISITA ! </legend><br>
+
+  <div class="form-group">
+  <label for="Nome">Nome e Sobrenome</label>
+  <input type="text" class="form-control" id="nome" placeholder="Fulano de tal" name="nome" autofocus required>
+</div>
+
+<div class="form-group">
+  <label for="email">Email</label>
+  <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com" required>
+</div>
+
+<div class="form-group">
+  <label for="email">Telefone</label>
+  <input type="email" class="form-control" id="email" name="email" placeholder="(99)99999-9999" required>
+</div>
+
+<div class="form-group">
+  <label for="appt">Horario</label>
+  <input type="time" class="form-control"id="agendarHorario" name="agendaHorario">
+</div>
+
+<div class="form-group">
+<label for="appt">Data</label>
+ <input type="date" class="form-control"id="agendarDia" name="agendaDia">         
+
+</form>
+</main>
+
+  </body>
+</html>
