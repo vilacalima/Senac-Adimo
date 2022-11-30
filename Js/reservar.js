@@ -22,8 +22,8 @@ const bookings = [
     },
     {
         id: 2,
-        name: "Nathalia Audinar",
-        email: "nataaudinar@gmail.com",
+        name: "Nathalia Aldinar",
+        email: "nataaldinar@gmail.com",
         telefone: "(14) 9 0532-5103",
         horario: "28/11/2022 - 12:30",
         imovel: "Rua Andrade - Jardim Paulista"
